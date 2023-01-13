@@ -23,6 +23,10 @@
   "bugs": {
     "url": "https://github.com/picturepan2/spectre/issues"
   },
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp watch"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -41,5 +45,8 @@
     "last 4 Safari versions",
     "last 4 Opera versions",
     "Explorer >= 10"
-  ]
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
